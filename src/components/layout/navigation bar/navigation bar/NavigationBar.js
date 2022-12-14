@@ -1,6 +1,7 @@
 import React from "react";
 
 import { ReactComponent as LogoIcon } from "../../../../imgs/logo.svg";
+import NavigationBarLink from "../navigation bar link/NavigationBarLink";
 
 import classes from "./NavigationBar.module.css";
 
@@ -18,11 +19,7 @@ const TITLES = [
 
 const NavigationBar = () => {
   const titlesList = TITLES.map((title) => {
-    return (
-      <li key={title} title={title}>
-        {title}
-      </li>
-    );
+    return <NavigationBarLink key={title} title={title} />;
   });
 
   return (
@@ -31,9 +28,7 @@ const NavigationBar = () => {
         <nav className={classes.nav}>
           <ul>{titlesList}</ul>
         </nav>
-        <div>
-          <LogoIcon />
-        </div>
+        <LogoIcon />
       </div>
     </header>
   );

@@ -13,7 +13,7 @@ code {
 }
 
 :root {
-  --nav-height: 10;
+  --nav-height: 12vh;
   --blue: #00497b;
   --white: #ffffff;
   --light-grey: #f1f2f2;

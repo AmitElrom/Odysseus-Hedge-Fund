@@ -1,19 +1,21 @@
 .header {
   width: 100vw;
+  height: var(--nav-height);
   z-index: 100;
-  position: sticky;
-  top: 0;
+  position: fixed;
+  background-color: var(--white);
+  display: block;
 }
 
 .data {
-  margin-top: 1%;
   margin-left: 16.5%;
   margin-right: 16.5%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: var(--white);
   color: var(--blue);
+  padding-top: 1%;
+  max-height: inherit;
 }
 
 .nav ul {
@@ -21,7 +23,7 @@
   display: flex;
   padding-right: 0;
   position: absolute;
-  top: 20%;
+  top: 35%;
 }
 
 .nav ul li {

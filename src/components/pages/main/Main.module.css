@@ -1,0 +1,15 @@
+.main {
+  background-color: var(--light-grey);
+  padding-top: var(--nav-height);
+  height: calc(100vh - var(--nav-height));
+}
+
+.main img {
+  z-index: 1;
+}
+
+.main h1 {
+  z-index: 10;
+  color: black;
+  position: relative;
+}
