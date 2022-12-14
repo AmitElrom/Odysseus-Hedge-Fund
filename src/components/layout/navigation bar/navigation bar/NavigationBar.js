@@ -28,7 +28,9 @@ const NavigationBar = () => {
         <nav className={classes.nav}>
           <ul>{titlesList}</ul>
         </nav>
-        <LogoIcon />
+        <i className={classes["logo-icon"]}>
+          <LogoIcon />
+        </i>
       </div>
     </header>
   );

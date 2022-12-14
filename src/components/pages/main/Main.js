@@ -9,8 +9,8 @@ const Main = () => {
     <div className={classes.main}>
       <img src={treesImg} alt="trees" />
       <h1>
-        <div>קרן אודיסאוס</div>
-        <div>השקעה טכנולוגית</div>
+        <div className={classes.title1}>קרן אודיסאוס</div>
+        <div className={classes.title2}>השקעה טכנולוגית</div>
       </h1>
     </div>
   );

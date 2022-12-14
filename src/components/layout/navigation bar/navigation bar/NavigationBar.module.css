@@ -18,6 +18,10 @@
   max-height: inherit;
 }
 
+.logo-icon {
+  cursor: pointer;
+}
+
 .nav ul {
   list-style: none;
   display: flex;
