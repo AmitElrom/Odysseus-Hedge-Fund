@@ -1,6 +1,6 @@
 import React from "react";
 
-import { ReactComponent as LogoIcon } from "../../../imgs/logo.svg";
+import { ReactComponent as LogoIcon } from "../../../../imgs/logo.svg";
 
 import classes from "./NavigationBar.module.css";
 
