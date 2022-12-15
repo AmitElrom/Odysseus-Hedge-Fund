@@ -1,0 +1,38 @@
+.main {
+  background-color: var(--light-grey);
+  padding-top: var(--nav-height);
+  height: calc(100vh - var(--nav-height));
+}
+
+.main img {
+  position: relative;
+  width: 101%;
+}
+
+.main h1 {
+  position: absolute;
+  font-size: 5rem;
+  top: 34%;
+  left: 52%;
+  text-align: right;
+}
+
+.main h1 .title1 {
+  color: white;
+  font-weight: 900;
+}
+
+.main h1 .title2 {
+  font-weight: 100;
+  background: radial-gradient(
+    var(--cream1),
+    var(--cream2),
+    var(--cream3),
+    var(--cream4),
+    var(--cream5),
+    var(--cream6)
+  );
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: none;
+}

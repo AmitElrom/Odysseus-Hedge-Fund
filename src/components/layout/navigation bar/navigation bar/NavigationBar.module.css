@@ -1,0 +1,38 @@
+.header {
+  width: 100%;
+  height: var(--nav-height);
+  height: min-content;
+  z-index: 100;
+  position: fixed;
+  background-color: var(--white);
+  display: block;
+}
+
+.data {
+  margin-left: 16.5%;
+  margin-right: 16.5%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: var(--blue);
+  padding-top: 1%;
+  max-height: inherit;
+}
+
+.logo-icon {
+  cursor: pointer;
+}
+
+.nav ul {
+  list-style: none;
+  display: flex;
+  padding-right: 0;
+  position: absolute;
+  top: 35%;
+}
+
+.nav ul li {
+  margin: 1rem;
+  margin-right: 0;
+  font-size: 19.02px;
+}
