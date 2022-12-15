@@ -1,6 +1,7 @@
 .header {
-  width: 100vw;
+  width: 100%;
   height: var(--nav-height);
+  height: min-content;
   z-index: 100;
   position: fixed;
   background-color: var(--white);

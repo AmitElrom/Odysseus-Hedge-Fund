@@ -4,11 +4,6 @@
   color: var(--blue);
 }
 
-.about h1 {
-  margin: 0;
-  font-size: 55px;
-}
-
 .about .data {
   width: 44%;
   margin: 0 auto;
